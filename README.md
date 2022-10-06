@@ -32,8 +32,10 @@ Deactivate `venv` environment:
 deactivate
 ```
 
-#### How to run the application
+#### How to run all the tests in the repository
+
+Make sure you are in the repo's root directory first.
 
 ```bash
-python3 snakes_cafe.py 
+pytest -v
 ```
